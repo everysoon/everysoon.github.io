@@ -36,12 +36,14 @@ keywords: ["backend", "nodejs", "nestjs", "java", "spring"]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
+future: true
+published: true
 logo: /assets/img/logo.png
-
+url: https://everysoon.github.io/
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: park minsun
+  name: parkminsun
   email: soonforjoy@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -412,5 +414,5 @@ jekyll_compose:
       image:
         path: /assets/img/sidebar-bg.jpg
       links:
-        - title: Project Link
-          url: https://example.com
+        - title: Github Link
+          url: https://github.com/everysoon
