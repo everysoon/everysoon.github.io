@@ -16,7 +16,8 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang: en-us
+lang: ko
+timezone: Asia/Seoul
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title: everysoon의 기술블로그
@@ -24,15 +25,15 @@ title: everysoon의 기술블로그
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  eveysoon's tech blog
 
 # A shorter description for the sidebar.
 tagline: Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
 keywords: ["backend", "nodejs", "nestjs", "java", "spring"]
-
+github:
+  username: everysoon
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
@@ -40,6 +41,8 @@ future: true
 published: true
 logo: /assets/img/logo.png
 url: https://everysoon.github.io/
+domain: everysoon.github.io
+baseurl: everysoon.github.io
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:

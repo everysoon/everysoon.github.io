@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "scripts": {
+    "prebuild": "npx rimraf assets/js/dist",
+    "build": "cross-env NODE_ENV=production npx rollup -c --bundleConfigAsCjs"
+  }
+}
